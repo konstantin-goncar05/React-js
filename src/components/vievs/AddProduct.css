@@ -1,0 +1,34 @@
+.AddProduct {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 15%;
+}
+
+.AddProduct h1 {
+    margin-bottom: 20px;
+}
+
+.AddProduct input {
+    height: 30px;
+    width: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.AddProduct button {
+    height: 30px;
+    width: auto;
+    border-radius: 10px;
+    font-size: 14pt;
+    background-color: #ae00ff;
+    border-style: none;
+}
+
+.AddProduct button:hover {
+    background-color: #1900ff;
+}
+
+.AddProduct #addProductError {
+    color: red;
+    margin-top: 10px;
+}

@@ -1,0 +1,78 @@
+.BasketContent{
+    background-color: #fbfafa;
+    width: 100%;
+   min-height: calc(100vh - 50px - 50px);
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   padding: 30px;
+   row-gap: 30px;/* отступ между рядами*/
+} 
+ .UserName{
+    width: 50%;
+    min-height: 150px;
+    border-color: aquamarine;
+   
+    margin: auto;
+    padding:auto ;
+    border-radius: 7px;
+    background-color:#9ecffa
+ }  
+ .UserName button {
+    width: 40%;
+    height: 50px;
+    cursor: pointer;
+    background-color: #f0f3f5;
+    border-radius: 5px;
+    border: none;
+}
+.UserName button:hover {
+    background-color: #59adf6; 
+}
+ 
+@media (max-width:815px) {
+    .BasketContent{
+        background-color: #fbfafa;
+        width: 100%;
+       min-height: calc(100vh - 50px - 50px);
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       padding: 30px;
+       row-gap: 30px;/* отступ между рядами*/
+    } 
+}
+@media (max-width:560px) {
+    .BasketContent{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .UserName{
+        width: 80%;
+        min-height: 150px;
+        border-color: aquamarine;
+       
+        margin: auto;
+        padding:auto ;
+        border-radius: 7px;
+        background-color:#9ecffa
+     }  
+}
+@media (max-width:350px) {
+    .UserName{
+        width: 98%;
+        min-height: 150px;
+        border-color: aquamarine;
+       
+        margin: auto;
+        padding:auto ;
+        border-radius: 7px;
+        background-color:#9ecffa
+     }  
+     .BasketContent{
+        background-color: #fbfafa;
+        width: 100%;
+       min-height: calc(100vh - 50px - 50px);
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       padding: 10px;
+       row-gap: 30px;/* отступ между рядами*/
+    } 
+}

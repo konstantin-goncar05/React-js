@@ -1,0 +1,36 @@
+.Main{
+    background-color: #fbfafa;
+    width: 100%;
+   min-height: calc(100vh - 50px - 50px);
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   padding: 30px;
+   row-gap: 30px;/* отступ между рядами*/
+} 
+@media (max-width:815px) {
+    .Main{
+        background-color: #fbfafa;
+        width: 100%;
+       min-height: calc(100vh - 50px - 50px);
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       padding: 30px;
+       row-gap: 30px;/* отступ между рядами*/
+    } 
+}
+@media (max-width:560px) {
+    .Main{
+        background-color: #fbfafa;
+        width: 100%;
+       min-height: calc(100vh - 50px - 50px);
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       padding: 30px;
+       row-gap: 30px;/* отступ между рядами*/
+    } 
+}
+@media (max-width:320px) {
+    .Main{
+    padding: 10px; 
+    }
+}
